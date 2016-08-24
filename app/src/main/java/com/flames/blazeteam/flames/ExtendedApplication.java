@@ -3,10 +3,15 @@ package com.flames.blazeteam.flames;
 import android.app.Application;
 
 /**
- * Created by sergey on 8/24/16.
+ * This is the main class for application.
+ * It extends the Application class and can be accessed from any point from program.
+ * It should contain global settings and some other things, like interfaces for social networks.
+ * Since most work in application is cross-activity, some functions should also be implemented
+ * in this scope.
  */
 public class ExtendedApplication extends Application {
 
+    //There should be declared program parameters.
     public String text;
 
     Twitter twitter;

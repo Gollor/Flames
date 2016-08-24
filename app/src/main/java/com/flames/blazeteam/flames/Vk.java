@@ -15,6 +15,7 @@ public class Vk {
      */
     boolean login()
     {
+        //TODO
         return false;
     }
 
@@ -25,6 +26,7 @@ public class Vk {
      */
     boolean post(String video_file)
     {
+        //TODO
         return false;
     }
 }

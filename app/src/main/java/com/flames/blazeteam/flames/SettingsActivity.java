@@ -23,6 +23,19 @@ import android.view.MenuItem;
 import java.util.List;
 
 /**
+ * Sergey.
+ * TODO
+ * This file contains a lot of generated commentaries which may be useful but still don't show
+ * thre required modifications. I want to see in this activity a few settings in the slide form
+ * which will show and edit:
+ * - How prolonged the effects are (time).
+ * - How big the effects are (scale).
+ * - How intensive the effects are (cooldown).
+ * ExtendedApplication class must be modified to contain this settings.
+ * Sergey.
+ */
+
+/**
  * A {@link PreferenceActivity} that presents a set of application settings. On
  * handset devices, settings are presented as a single list. On tablets,
  * settings are split by category, with category headers shown to the left of

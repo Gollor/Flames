@@ -8,6 +8,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+/**
+ * TODO
+ * This activity has to show the augmented video from camera. Augmentation class still doesn't work,
+ * so I suppose that you should get the video, change a few pixels and then show it on screen.
+ * This activity also has to create video file adter it's end.
+ * Sergey.
+ */
+
 public class CameraActivity extends AppCompatActivity {
 
     @Override
@@ -28,6 +36,11 @@ public class CameraActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
+    /**
+     * TODO
+     * This function not only starts the video activity but also saves the shooted video.
+     * @param v
+     */
     public void startVideoActivity(View v)
     {
         Intent intent = new Intent(this, VideoActivity.class);

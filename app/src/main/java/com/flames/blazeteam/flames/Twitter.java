@@ -6,6 +6,7 @@ package com.flames.blazeteam.flames;
 public class Twitter {
 
     Twitter() {
+
     }
 
     /**
@@ -15,6 +16,7 @@ public class Twitter {
      */
     boolean login()
     {
+        //TODO
         return false;
     }
 
@@ -25,6 +27,7 @@ public class Twitter {
      */
     boolean post(String video_file)
     {
+        //TODO
         return false;
     }
 }
