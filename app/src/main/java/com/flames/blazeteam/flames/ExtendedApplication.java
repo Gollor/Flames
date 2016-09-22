@@ -14,13 +14,16 @@ public class ExtendedApplication extends Application {
     //There should be declared program parameters.
     public String text;
 
+    public int particleIntensity;
+    public int particleDuration;
+    public int particleSize;
+
     Twitter twitter;
     Instagram instagram;
     Facebook facebook;
     Vk vk;
 
-    public void init()
-    {
+    public void init() {
         text = "Global settings are initialized.";
         twitter = new Twitter();
         instagram = new Instagram();
